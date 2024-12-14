@@ -1,0 +1,108 @@
+body{
+    background-color:#1e0b37;
+}
+.song{
+    background-color: #ffefcb;
+    height:30vh;
+    width: 30vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-content:end;
+    justify-content: flex-start;
+    border: 3px solid #F9BA42;
+    
+}
+img{
+    margin:0;
+    padding: 0;
+}
+.menu{
+    background-color: #F9BA42 ;
+    height:19%;
+    display: flex;
+    margin: none;
+    padding: none;
+}
+.song-button{
+    height:30px;
+    width: 30px;
+    margin:auto;
+    padding: 0;
+    border: none;
+    background-color: #F9BA42;
+}
+.flip{
+    transform:scale(-1,1);
+}
+.list{
+    background-color: #323232;
+    width:70vw;
+    margin: auto;
+    margin-top: 4vh;
+    border:2px solid #F9BA42;
+}
+.song-icon{
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: auto;
+}
+.playing>svg>g>#Dribbble-Light-Preview{
+    fill:rgba(49, 49, 19, 0.473);
+}
+.playlist-song{
+    height:50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    border: none;
+    background-color: #1e0b37;
+    border-bottom:2px solid #e8e8e8;
+    
+}
+.playlist-song-info{
+    width:97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #e8e8e8;
+}
+.playlist-song-title {
+    font-size: 0.85rem;
+    text-align: left;
+    width: 60%;
+  }
+.playlist-song-artist{
+    font-size: 0.85rem;
+    text-align: left;
+    width: 15%;
+}
+.playlist-heading{
+    height:50px;
+    text-align: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color: #F9BA42;
+
+}
+.playlist-song-delete{
+    background: none;
+    border: none;
+}
+.highlight{
+    background-color: #4f1c91;
+}
+.playlist-song-delete:hover circle,
+.playlist-song-delete:focus circle {
+  fill: #ff0000;
+}
+#play>svg>g>#Dribbble-Light-Preview:hover {
+    fill: #323232;
+}

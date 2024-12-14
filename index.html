@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="song">
+        <img height="81%" width="100%"  src="CD MixtapeAlbum Cover Artwork Template - Made with PosterMyWall.jpg" alt="">
+        <div class="menu">
+            <button class="song-button" id="back"><svg class="song-icon flip" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="forward-3" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><path id="primary" d="M17,2a1,1,0,0,0-1,1v7.08L7.57,4.18a1,1,0,0,0-1-.07A1,1,0,0,0,6,5V19a1,1,0,0,0,.54.89A1,1,0,0,0,7,20a1,1,0,0,0,.57-.18L16,13.92V21a1,1,0,0,0,2,0V3A1,1,0,0,0,17,2Z" style="fill: rgb(0, 0, 0);"></path></svg></button>
+            <button class="song-button " id="play"><svg class="song-icon" width="800px" height="800px" viewBox="-0.5 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                <title>play</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+            
+            </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-347.000000, -3766.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M296.494737,3608.57322 L292.500752,3606.14219 C291.83208,3605.73542 291,3606.25002 291,3607.06891 L291,3611.93095 C291,3612.7509 291.83208,3613.26444 292.500752,3612.85767 L296.494737,3610.42771 C297.168421,3610.01774 297.168421,3608.98319 296.494737,3608.57322" id="play-[#1003]">
+            
+            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg></button>
+            <button class="song-button" id="pause"><svg class="song-icon" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <title>pause</title>
+                <path d="M5.92 24.096q0 0.832 0.576 1.408t1.44 0.608h4.032q0.832 0 1.44-0.608t0.576-1.408v-16.16q0-0.832-0.576-1.44t-1.44-0.576h-4.032q-0.832 0-1.44 0.576t-0.576 1.44v16.16zM18.016 24.096q0 0.832 0.608 1.408t1.408 0.608h4.032q0.832 0 1.44-0.608t0.576-1.408v-16.16q0-0.832-0.576-1.44t-1.44-0.576h-4.032q-0.832 0-1.408 0.576t-0.608 1.44v16.16z"></path>
+                </svg></button>
+            <button class="song-button" id="forward"><svg class="song-icon" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="forward-3" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><path id="primary" d="M17,2a1,1,0,0,0-1,1v7.08L7.57,4.18a1,1,0,0,0-1-.07A1,1,0,0,0,6,5V19a1,1,0,0,0,.54.89A1,1,0,0,0,7,20a1,1,0,0,0,.57-.18L16,13.92V21a1,1,0,0,0,2,0V3A1,1,0,0,0,17,2Z" style="fill: rgb(0, 0, 0);"></path></svg></button>
+        </div>
+        
+
+    </div>
+    <div class="list">
+        <div class="playlist-heading">PLAYLIST</div>
+        <div id="playlist"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
